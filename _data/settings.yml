@@ -1,7 +1,7 @@
-title: 'BitDevs GDL'
+title: 'BitDevs CDMX'
 tagline: 'BitDevs es una comunidad para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos relacionados.'
 
 menu:
-  - {name: 'Sobre BitDevs', url: '/about'}
+  - {name: 'Acerca de BitDevs', url: '/about'}
   - {name: 'Eventos', url: '/events'}
-  - {name: 'Meetup', url: 'https://www.meetup.com/guadalajara-bitcoin-and-lightning/', external: true}
+  - {name: 'Meetup', url: 'https://www.meetup.com/bitdevs-cdmx/', external: true}

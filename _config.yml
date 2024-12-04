@@ -9,7 +9,7 @@ sass:
   style: :compressed
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title: "BitDevs GDL"
+title: "BitDevs CDMX"
 description: "BitDevs es una comunidad para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos relacionados."
 
 # Leave out some files

@@ -1,41 +1,42 @@
-# BitDevs GDL
+# BitDevs CDMX
 
-Simple Jekyll site for hosting all of the links from meetups past and future.
+Sitio Jekyll sencillo para almacenar todos los enlaces de reuniones pasadas y
+futuras.
 
-## Development
+## Desarrollo 
 
-You'll need [Ruby & Jekyll](https://jekyllrb.com/docs/installation/) to run the
-site locally. Once they're setup:
+Es necesario tener instalados [Ruby & Jekyll](https://jekyllrb.com/docs/installation/)
+para correr el sitio localmente. Una vez instaladas:
 
-* Clone the repository and go into the directory
-* Run `bundle install`
-* Run `jekyll serve`
-* Go to http://localhost:4000
+* Clona el repositorio y ve al directorio
+* Ejecuta `bundle install`
+* Ejecuta `jekyll serve`
+* Accede a http://localhost:4000
 
-## Making a Post
+## Crear una publicación 
 
-To make a new post, make a new file in `_posts/` with a title of
-`YYYY-MM-DD-title-goes-here`. At the top of the file you'll want to provide the
-following information:
+Para crear una nueva publicación, crea un archivo nuevo en `_posts/` con el
+título `YYYY-MM-DD-el-título-va-aquí`. 
+Al comienzo del archivo ingresa la siguiente información:
 
 ```md
 ---
-layout: post # Always post
-type: socratic # or whitepaper for a whitepaper series
-title: "Name of the Post"
-meetup: https://www.meetup.com/BitDevsNYC/events/[event id here]/
+layout: post # Siempre `post`
+type: socratic # o `whitepaper` para una serie de white paper
+title: "Título de la publicación"
+meetup: https://www.meetup.com/BitDevs-CDMX/events/[id del evento]/
 ---
 ```
 
-After that, it's just simple markdown. The site will auto-generate the rest.
+Después usa sencillamente markdown. El sitio autogenerará el resto.
 
-## Changing Site Data
+## Cambiar los datos del sitio 
 
-All site configurations are either contained in `_config.yml` or
-`_data/settings.yml`. Some data is duplicated between the two due to the way
-Jekyll injects variables, so be sure to update both.
+Toda la configuración del sitio esta contenida ya sea en `_config.yml` o en
+`_data/settings.yml`. Algunos datos están duplicados entre estos dada la manera
+en la que Jekyll inyecta las variables así que asegúrate de actualizar ambos.
 
-## Attributions
+## Agradecimientos
 
-Thanks to [LeNPaul](https://github.com/LeNPaul/jekyll-starter-kit) for the
-Jekyll starter kit this was forked from.
+Gracias a [LeNPaul](https://github.com/LeNPaul/jekyll-starter-kit) por la
+plantilla inicial de Jekyll en la cuál este repositorio de basa.
