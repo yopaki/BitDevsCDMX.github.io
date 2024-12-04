@@ -1,6 +1,6 @@
 ---
 layout: post
-type: archivos
+type: socratic
 title: "¡Emepezamos en febrero de 2025!"
 meetup: https://www.meetup.com/bitdevs-cdmx/ 
 ---
